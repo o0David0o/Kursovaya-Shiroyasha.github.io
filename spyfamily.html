@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spy x Family Season 2</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+</head>
+<body>
+    <div onclick="closeModal()" class="blure"></div>
+    <div class="modal" id="error">
+        <div class="modal__title">Сообщение Администрации</div>
+        <div class="modal__text">Возможно, у тебя возникла интересная идея? Или тебе тут что-то не нравится и чего-то не хватает?
+            Или, может быть, на сайте что-то неправильно работает, и обнаружилась ошибка?
+            А может быть, просто хочешь что-то сказать или спросить?
+        </div>
+        <div class="modal__text-end">Напиши нам в форме ниже, и мы, может быть, когда-нибудь тебе ответим.</div>
+        <input class="modal__mail" type="search" placeholder="mail">
+        <div class="modal__mail-answer">на почту придет ответ</div>
+        <textarea class="modal__coment" type="text" placeholder="Текст комментария" cols="25" rows="6"></textarea> 
+        <button onclick="closeModal()" class="modal__button-enter">Написать</button>
+    </div>
+    <header class="header">
+        <div class="header__left">
+            <a href="/index.html"><div class="header__logo">SHIROYASHA</div></a>
+            <div class="select_mate" data-mate-select="active" >
+                <img class="header__home" src="/image/home-icon-white-11.jpg" alt="home">
+            <select name="" onchange="" onclick="return false;" id="">
+                <option value="">О сайте</option>
+                <option value="">Лучшее </option>
+                <option value="" >Оноинги </option>
+                <option value="">АНИМЕ </option>
+            </select>
+            <p class="selecionado_opcion"  onclick="open_select(this)"></p>
+            <span onclick="open_select(this)" class="icon_select_mate">
+                <svg fill="white" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M7.41 7.84L12 12.42l4.59-4.58L18 9.25l-6 6-6-6z"/>
+                    <path d="M0-.75h24v24H0z" fill="none"/>
+                </svg>
+            </span>
+            <div class="cont_list_select_mate">
+                <ul class="cont_select_int">  </ul> 
+            </div>
+            </div>
+            <div class="header__search">
+                <img class="header__search-icon" src="/image/search.svg" alt="search">
+                <input class="header__placeholder" type="search" placeholder="Поиск...">
+            </div>
+        </div>
+        <form action="entry.html">
+        <button class="header__entry">Войти</button>
+    </form>
+    </header>
+    <section class="hero">
+
+        <div class="hero__background">
+            <button onclick="addModal()" class="hero__background__error">Сообщить об ошибке</button>
+        </div>
+        <section class="hero__content">
+            <div class="hero__title-spy"> 
+                <div class="hero__title-spy-name">Семья шпиона 2 / Spy x Family Season 2</div>
+                    <div class="hero__title-spy-tegs">
+                        <span class="hero__title-spy-teg">2023 года</span>
+                        <span class="hero__title-spy-teg0">/</span>
+                        <span class="hero__title-spy-teg2">Сёнен</span>
+                        <span class="hero__title-spy-teg0">/</span>
+                        <span class="hero__title-spy-teg3">Аниме-сериал</span>
+                    </div>
+            </div>
+            <div class="hero__content-spy">
+                <a href="/spyfamily.html"  ><img class="hero__spy-icon" src="/image/icon-anime.jpeg" alt="icon-anime"></a>
+                <div class="hero__title-info"> 
+                    <div class="hero__title-info-tegs">Информация</div>
+                    <div class="hero__tegs-info">
+                        <div class="hero__teg-info">
+                            <div class="hero__teg-info-key">Тип:</div>
+                            <div class="hero__teg-info-value">&nbsp; TV Сериал</div>
+                        </div>
+                        <div class="hero__teg-info">
+                            <div class="hero__teg-info-key">Эпизоды:</div>
+                            <div class="hero__teg-info-value">&nbsp; 12</div>
+                        </div>
+                        <div class="hero__teg-info">
+                            <div class="hero__teg-info-key">Длительность эпизода:</div>
+                            <div class="hero__teg-info-value">&nbsp; 23 мин</div>
+                        </div>
+                        <div class="hero__teg-info">
+                            <div class="hero__teg-info-key">Статус: &nbsp;</div>
+                            <div class="hero__teg-info-value1">вышло</div>
+                        </div>
+                        <div class="hero__teg-info">
+                            <div class="hero__teg-info-value2">с 7 окт. 2023 г. по 23 дек. 2023 г.</div>
+                        </div>
+                        <div class="hero__teg-info">
+                            <div class="hero__teg-info-key">Студия: &nbsp;</div>
+                            <div class="hero__teg-info-value">Wit Studio / CloverWorks</div>
+                        </div>
+                        <div class="hero__teg-info">
+                            <div class="hero__teg-info-key">Жанры:</div>
+                            <div class="hero__teg-info-value">&nbsp; Экшен, Комедия, Сёнен</div>
+                        </div>
+                        <div class="hero__teg-info">
+                            <div class="hero__teg-info-key">Рейтинг: &nbsp;</div>
+                            <div class="hero__teg-info-value2">PG-13</div>
+                        </div>
+                        <div class="hero__teg-info">
+                            <div class="hero__teg-info-key">Альтернативные названия:</div>
+                        </div>
+                        <div class="hero__teg-info">
+                            <div class="hero__teg-info-key">По японски:</div>
+                            <div class="hero__teg-info-value">&nbsp; SPY× FAMILY Season 2</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero__title-dop-info">
+                    <div class="hero__title-dop-tegs">Рейтинг</div>
+                    <div class="hero__rating-area">
+                        <input type="radio" id="star-5" name="rating" value="5">
+                        <label for="star-5" title="Оценка «5»"></label>	
+                        <input type="radio" id="star-4" name="rating" value="4">
+                        <label for="star-4" title="Оценка «4»"></label>    
+                        <input type="radio" id="star-3" name="rating" value="3">
+                        <label for="star-3" title="Оценка «3»"></label>  
+                        <input type="radio" id="star-2" name="rating" value="2">
+                        <label for="star-2" title="Оценка «2»"></label>    
+                        <input type="radio" id="star-1" name="rating" value="1">
+                        <label for="star-1" title="Оценка «1»"></label>
+                    </div>
+                    <div class="hero__title-dop-tegs-studio">Студии</div>             
+                        <div class="hero__teg-info-value">Wit Studio &nbsp / &nbsp CloverWorks</div>
+                    <div class="hero__title-dop-tegs-seria">Порядок просмотра</div>
+                        <div class="hero__teg-dopinfo-value">Семья шпиона / Spy x Family </div>
+                        <div class="hero__teg-dopinfo-value">Семья шпиона. Часть 2 / Spy x Family Part 2</div>
+                        <div class="hero__teg-dopinfo-value">Семья шпиона 2/ Spy x Family Season 2</div>
+                </div>
+                <div class="hero__content-stat">
+                    <div class="hero__title-dop-tegs-score">Оценки людей</div>  
+                    <script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+                    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
+                    <div class="hero__content-chart">
+                        <div class="hero__reit-chart" ng-app="myApp">
+                            <bars data="81,53,12,8,7"></bars>
+                        </div>
+                        <div class="rating-mini">
+                            <span class="active"></span>	
+                            <span class="active"></span>    
+                            <span class="active"></span>  
+                            <span class="active"></span>    
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class="hero__creator-spy">
+                        <div class="hero__title-dop-tegs-autor">Авторы</div> 
+                        <div class="hero__teg-info-name-autor">Тацуя Эндо</div>
+                        <div class="hero__teg-info">
+                            <div class="hero__teg-info-key">Роль:</div>
+                            <div class="hero__teg-info-value">&nbsp; Автор оригинала</div>
+                        </div>
+                        <div class="hero__teg-info-name-autor">Кадзухиро Фурухаси</div>
+                        <div class="hero__teg-info">
+                            <div class="hero__teg-info-key">Роли:</div>
+                            <div class="hero__teg-info-value">&nbsp; Раскадровка, Режиссёр эпизодов</div>
+                        </div>
+                        <div class="hero__teg-info-name-autor">Такахиро Харада</div>
+                        <div class="hero__teg-info">
+                            <div class="hero__teg-info-key">Роль:</div>
+                            <div class="hero__teg-info-value">&nbsp; Режиссёр</div>
+                        </div>
+                    </div>
+                </div>   
+            </div>
+            <div class="hero__hero-describe-content">
+                <div class="hero__hero-describe">
+                    <div class="hero__hero-describe-teg">ОПИСАНИЕ СЮЖЕТА «СЕМЬЯ ШПИОНА 2»</div>
+                    <div class="hero__hero-describe-text">Семья Форджеров хранит слишком много тайн. Мало кто знает, что они играют роль добропорядочных граждан, объединившихся в семейное общество, чтобы расти детей, вести быт и наслаждаться приятным общением с близкими людьми.
+                        Им настолько удается реалистично вписаться в роль мужа и жены, что догадаться о их настоящей профессиональной деятельности абсолютно невозможно. Семья из трех человек не имеет кдруг другу ничего общего. Аня, Весталис и Йор тайные агенты, способные проникнуть куда угодно, получить необходимую информацию, а затем неожиданно исчезнуть не оставив никаких следов своего пребывания. 
+                    </div>
+                    <div class="hero__hero-describe-text">Выполняя ответственное поручение, троим агентам приходится жить под одной крышей. Каждый из главных героев обладает специфическим характером, поэтому часто между ними возникают недопонимания, приводящие к неприятным ситуациям, а порой просто комичным событиям. Весталдис по жизни был одиночкой, семейная жизнь была точно не для него.
+                        Получив задание от руководства, ему нужно было срочно обзавестись женой и ребенком. Время шло, а план необходимо было реализовывать и тогда он предлагает Йор стать его супругой, даже не подозревая, что эта женщина на самом деле опасный киллер. Дочка в семье молодоженов появляется также неожиданно, как и все, что происходило с ними в этой шпионской истории.
+                    </div>
+                    <div class="hero__videos-spy-text">Видео Вырезки</div>
+                    <div class="hero__videos-spy">
+                        <video class="hero__video-spy" controls="true" src="video/spy_1.mov"></video>
+                        <video class="hero__video-spy" controls="true" src="video/spy_2.mov"></video>
+                    </div>
+                </div>
+                <div class="hero__frames-spy">
+                    <div class="hero__frames-text">Кадры из аниме</div>
+                    <div class="hero__frames-spy-imgs">
+                        <img class="hero__frames-spy-img" src="/image/spy-frame1.jpg" alt="frame1" controls>
+                        <img class="hero__frames-spy-img" src="/image/spy-frame2.png" alt="frame2" controls>
+                        <img class="hero__frames-spy-img" src="/image/spy-frame3.png" alt="frame3" controls>
+                        <img class="hero__frames-spy-img" src="/image/spy-frame4.jpg" alt="frame4" controls>
+                </div>
+            </div>
+            </div>
+                </section>
+        <div class="hero__background">
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer__aboutus">
+            <span class="footer__aboutus-creator">Creator: o0_David_0o</span>
+            <div class="footer__navigation">
+                <span class="footer__navigation-text">Навигация:</span>
+                <a class="footer__link" href="/aboutus.html"><span class="footer__text-link">О сайте</span></a>
+                <a class="footer__link" href="/index.html"><span class="footer__text-link">Главная страница</span></a>
+                <a class="footer__link" href="/onoing.html"><span class="footer__text-link">Новинки</span></a>
+                <a class="footer__link" href="/season.html"><span class="footer__text-link">Аниме сезона</span></a>
+                <a class="footer__link" href="/aboutus.html"><span class="footer__text-link">Лучшие</span></a>
+            </div>
+            <span class="footer__aboutus-name">Shiroyasha.ru 2023</span>
+        </div>
+
+    </footer>
+    <script src="script/modal.js"></script>
+    <script src="script/script.js"></script>
+</body>
+</html>

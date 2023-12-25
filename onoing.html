@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Новинки / Оноинги</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+</head>
+<body>
+    <div onclick="closeModal()" class="blure"></div>
+    <div class="modal" id="error">
+        <div class="modal__title">Сообщение Администрации</div>
+        <div class="modal__text">Возможно, у тебя возникла интересная идея? Или тебе тут что-то не нравится и чего-то не хватает?
+            Или, может быть, на сайте что-то неправильно работает, и обнаружилась ошибка?
+            А может быть, просто хочешь что-то сказать или спросить?
+        </div>
+        <div class="modal__text-end">Напиши нам в форме ниже, и мы, может быть, когда-нибудь тебе ответим.</div>
+        <input class="modal__mail" type="search" placeholder="mail">
+        <div class="modal__mail-answer">на почту придет ответ</div>
+        <textarea class="modal__coment" type="text" placeholder="Текст комментария" cols="25" rows="6"></textarea> 
+        <button onclick="closeModal()" class="modal__button-enter">Написать</button>
+    </div>
+    <header class="header">
+        <div class="header__left">
+            <a href="/index.html"><div class="header__logo">SHIROYASHA</div></a>
+            <div class="select_mate" data-mate-select="active" >
+                <img class="header__home" src="/image/home-icon-white-11.jpg" alt="home">
+            <select name="" onchange="" onclick="return false;" id="">
+                <option value="">Оноинги</option>
+                <option value="index.html">АНИМЕ </option>
+                <option value="">Лучшее </option>
+                <option value="2" >О сайте </option>
+                
+            </select>
+            <p class="selecionado_opcion"  onclick="open_select(this)"></p>
+            <span onclick="open_select(this)" class="icon_select_mate">
+                <svg fill="white" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M7.41 7.84L12 12.42l4.59-4.58L18 9.25l-6 6-6-6z"/>
+                    <path d="M0-.75h24v24H0z" fill="none"/>
+                </svg>
+            </span>
+            <div class="cont_list_select_mate">
+                <ul class="cont_select_int">  </ul> 
+            </div>
+            </div>
+            <div class="header__search">
+                <img class="header__search-icon" src="/image/search.svg" alt="search">
+                <input class="header__placeholder" type="search" placeholder="Поиск...">
+            </div>
+        </div>
+        <form action="entry.html">
+        <button class="header__entry">Войти</button>
+    </form>
+    </header>
+    <section class="hero">
+
+        <div class="hero__background">
+            <button onclick="addModal()" class="hero__background__error">Сообщить об ошибке</button>
+        </div>
+        <section class="hero__content-onoing">
+            <div class="hero__targets-onoing">
+                <div class="hero__target-onoing">Онгоинги аниме</div>
+                    <span class="hero__target-onoing-teg">На данной странице отображены онгоинги аниме, отсортированные по рейтингу</span>
+            </div>
+            <div class="hero__onoing-content">
+                <div class="hero__onoing-cards">           
+                    <div class="hero__content-cards">
+                        <div class="hero__content-card">
+                            <a href="/spyfamily.html"  ><img class="hero__card-icon" src="/image/icon-anime.jpeg" alt="icon-anime"></a>
+                            <a class="link__prview"  href="/spyfamily.html"  ><span class="hero__card-text">Семья шпиона 2</span></a>
+                        </div>
+                        <div class="hero__content-card">
+                            <a href="/spyfamily.html"  ><img class="hero__card-icon" src="/image/icon-anime.jpeg" alt="icon-anime"></a>
+                            <a class="link__prview" href="/spyfamily.html"  ><span class="hero__card-text">Семья шпиона 2</span></a>
+                        </div>
+                        <div class="hero__content-card">
+                            <a href="/spyfamily.html"  ><img class="hero__card-icon" src="/image/icon-anime.jpeg" alt="icon-anime"></a>
+                            <a class="link__prview" href="/spyfamily.html"  ><span class="hero__card-text">Семья шпиона 2</span></a>
+                        </div>
+                        <div class="hero__content-card">
+                            <a href="/spyfamily.html"  ><img class="hero__card-icon" src="/image/icon-anime.jpeg" alt="icon-anime"></a>
+                            <a class="link__prview" href="/spyfamily.html"  ><span class="hero__card-text">Семья шпиона 2</span></a>
+                        </div>
+                        <div class="hero__content-card">
+                            <a href="/spyfamily.html"  ><img class="hero__card-icon" src="/image/icon-anime.jpeg" alt="icon-anime"></a>
+                            <a class="link__prview" class="link__prview" href="/spyfamily.html"  ><span class="hero__card-text">Семья шпиона 2</span></a>
+                        </div>
+                        <div class="hero__content-card">
+                            <a href="/spyfamily.html"  ><img class="hero__card-icon" src="/image/icon-anime.jpeg" alt="icon-anime"></a>
+                            <a class="link__prview" href="/spyfamily.html"  ><span class="hero__card-text">Семья шпиона 2</span></a>
+                        </div>                        
+                    </div>
+                    <div class="hero__content-cards">
+                        <div class="hero__content-card">
+                            <a href="/spyfamily.html"  ><img class="hero__card-icon" src="/image/icon-anime.jpeg" alt="icon-anime"></a>
+                            <a class="link__prview"  href="/spyfamily.html"  ><span class="hero__card-text">Семья шпиона 2</span></a>
+                        </div>
+                        <div class="hero__content-card">
+                            <a href="/spyfamily.html"  ><img class="hero__card-icon" src="/image/icon-anime.jpeg" alt="icon-anime"></a>
+                            <a class="link__prview" href="/spyfamily.html"  ><span class="hero__card-text">Семья шпиона 2</span></a>
+                        </div>
+                        <div class="hero__content-card">
+                            <a href="/spyfamily.html"  ><img class="hero__card-icon" src="/image/icon-anime.jpeg" alt="icon-anime"></a>
+                            <a class="link__prview" href="/spyfamily.html"  ><span class="hero__card-text">Семья шпиона 2</span></a>
+                        </div>
+                        <div class="hero__content-card">
+                            <a href="/spyfamily.html"  ><img class="hero__card-icon" src="/image/icon-anime.jpeg" alt="icon-anime"></a>
+                            <a class="link__prview" href="/spyfamily.html"  ><span class="hero__card-text">Семья шпиона 2</span></a>
+                        </div>
+                        <div class="hero__content-card">
+                            <a href="/spyfamily.html"  ><img class="hero__card-icon" src="/image/icon-anime.jpeg" alt="icon-anime"></a>
+                            <a class="link__prview" class="link__prview" href="/spyfamily.html"  ><span class="hero__card-text">Семья шпиона 2</span></a>
+                        </div>
+                        <div class="hero__content-card">
+                            <a href="/spyfamily.html"  ><img class="hero__card-icon" src="/image/icon-anime.jpeg" alt="icon-anime"></a>
+                            <a class="link__prview" href="/spyfamily.html"  ><span class="hero__card-text">Семья шпиона 2</span></a>
+                        </div>                                              
+                    </div>
+                    <div class="hero__content-cards">
+                        <div class="hero__content-card">
+                            <a href="/spyfamily.html"  ><img class="hero__card-icon" src="/image/icon-anime.jpeg" alt="icon-anime"></a>
+                            <a class="link__prview"  href="/spyfamily.html"  ><span class="hero__card-text">Семья шпиона 2</span></a>
+                        </div>
+                        <div class="hero__content-card">
+                            <a href="/spyfamily.html"  ><img class="hero__card-icon" src="/image/icon-anime.jpeg" alt="icon-anime"></a>
+                            <a class="link__prview" href="/spyfamily.html"  ><span class="hero__card-text">Семья шпиона 2</span></a>
+                        </div>
+                        <div class="hero__content-card">
+                            <a href="/spyfamily.html"  ><img class="hero__card-icon" src="/image/icon-anime.jpeg" alt="icon-anime"></a>
+                            <a class="link__prview" href="/spyfamily.html"  ><span class="hero__card-text">Семья шпиона 2</span></a>
+                        </div>
+                        <div class="hero__content-card">
+                            <a href="/spyfamily.html"  ><img class="hero__card-icon" src="/image/icon-anime.jpeg" alt="icon-anime"></a>
+                            <a class="link__prview" href="/spyfamily.html"  ><span class="hero__card-text">Семья шпиона 2</span></a>
+                        </div>
+                        <div class="hero__content-card">
+                            <a href="/spyfamily.html"  ><img class="hero__card-icon" src="/image/icon-anime.jpeg" alt="icon-anime"></a>
+                            <a class="link__prview" class="link__prview" href="/spyfamily.html"  ><span class="hero__card-text">Семья шпиона 2</span></a>
+                        </div>
+                        <div class="hero__content-card">
+                            <a href="/spyfamily.html"  ><img class="hero__card-icon" src="/image/icon-anime.jpeg" alt="icon-anime"></a>
+                            <a class="link__prview" href="/spyfamily.html"  ><span class="hero__card-text">Семья шпиона 2</span></a>
+                        </div>
+                                           
+                    </div>
+                    <div class="hero__content-cards">
+                        <div class="hero__content-card">
+                            <a href="/spyfamily.html"  ><img class="hero__card-icon" src="/image/icon-anime.jpeg" alt="icon-anime"></a>
+                            <a class="link__prview"  href="/spyfamily.html"  ><span class="hero__card-text">Семья шпиона 2</span></a>
+                        </div>
+                        <div class="hero__content-card">
+                            <a href="/spyfamily.html"  ><img class="hero__card-icon" src="/image/icon-anime.jpeg" alt="icon-anime"></a>
+                            <a class="link__prview" href="/spyfamily.html"  ><span class="hero__card-text">Семья шпиона 2</span></a>
+                        </div>
+                        <div class="hero__content-card">
+                            <a href="/spyfamily.html"  ><img class="hero__card-icon" src="/image/icon-anime.jpeg" alt="icon-anime"></a>
+                            <a class="link__prview" href="/spyfamily.html"  ><span class="hero__card-text">Семья шпиона 2</span></a>
+                        </div>
+                        <div class="hero__content-card">
+                            <a href="/spyfamily.html"  ><img class="hero__card-icon" src="/image/icon-anime.jpeg" alt="icon-anime"></a>
+                            <a class="link__prview" href="/spyfamily.html"  ><span class="hero__card-text">Семья шпиона 2</span></a>
+                        </div>
+                        <div class="hero__content-card">
+                            <a href="/spyfamily.html"  ><img class="hero__card-icon" src="/image/icon-anime.jpeg" alt="icon-anime"></a>
+                            <a class="link__prview" class="link__prview" href="/spyfamily.html"  ><span class="hero__card-text">Семья шпиона 2</span></a>
+                        </div>
+                        <div class="hero__content-card">
+                            <a href="/spyfamily.html"  ><img class="hero__card-icon" src="/image/icon-anime.jpeg" alt="icon-anime"></a>
+                            <a class="link__prview" href="/spyfamily.html"  ><span class="hero__card-text">Семья шпиона 2</span></a>
+                        </div>                       
+                    </div>
+                    <div class="hero__content-cards">
+                        <div class="hero__content-card">
+                            <a href="/spyfamily.html"  ><img class="hero__card-icon" src="/image/icon-anime.jpeg" alt="icon-anime"></a>
+                            <a class="link__prview"  href="/spyfamily.html"  ><span class="hero__card-text">Семья шпиона 2</span></a>
+                        </div>
+                        <div class="hero__content-card">
+                            <a href="/spyfamily.html"  ><img class="hero__card-icon" src="/image/icon-anime.jpeg" alt="icon-anime"></a>
+                            <a class="link__prview" href="/spyfamily.html"  ><span class="hero__card-text">Семья шпиона 2</span></a>
+                        </div>
+                        <div class="hero__content-card">
+                            <a href="/spyfamily.html"  ><img class="hero__card-icon" src="/image/icon-anime.jpeg" alt="icon-anime"></a>
+                            <a class="link__prview" href="/spyfamily.html"  ><span class="hero__card-text">Семья шпиона 2</span></a>
+                        </div>
+                        <div class="hero__content-card">
+                            <a href="/spyfamily.html"  ><img class="hero__card-icon" src="/image/icon-anime.jpeg" alt="icon-anime"></a>
+                            <a class="link__prview" href="/spyfamily.html"  ><span class="hero__card-text">Семья шпиона 2</span></a>
+                        </div>
+                        <div class="hero__content-card">
+                            <a href="/spyfamily.html"  ><img class="hero__card-icon" src="/image/icon-anime.jpeg" alt="icon-anime"></a>
+                            <a class="link__prview" class="link__prview" href="/spyfamily.html"  ><span class="hero__card-text">Семья шпиона 2</span></a>
+                        </div>
+                        <div class="hero__content-card">
+                            <a href="/spyfamily.html"  ><img class="hero__card-icon" src="/image/icon-anime.jpeg" alt="icon-anime"></a>
+                            <a class="link__prview" href="/spyfamily.html"  ><span class="hero__card-text">Семья шпиона 2</span></a>
+                        </div>                       
+                    </div>
+                    <div class="hero__content-cards">
+                        <div class="hero__content-card">
+                            <a href="/spyfamily.html"  ><img class="hero__card-icon" src="/image/icon-anime.jpeg" alt="icon-anime"></a>
+                            <a class="link__prview"  href="/spyfamily.html"  ><span class="hero__card-text">Семья шпиона 2</span></a>
+                        </div>
+                        <div class="hero__content-card">
+                            <a href="/spyfamily.html"  ><img class="hero__card-icon" src="/image/icon-anime.jpeg" alt="icon-anime"></a>
+                            <a class="link__prview" href="/spyfamily.html"  ><span class="hero__card-text">Семья шпиона 2</span></a>
+                        </div>
+                        <div class="hero__content-card">
+                            <a href="/spyfamily.html"  ><img class="hero__card-icon" src="/image/icon-anime.jpeg" alt="icon-anime"></a>
+                            <a class="link__prview" href="/spyfamily.html"  ><span class="hero__card-text">Семья шпиона 2</span></a>
+                        </div>
+                        <div class="hero__content-card">
+                            <a href="/spyfamily.html"  ><img class="hero__card-icon" src="/image/icon-anime.jpeg" alt="icon-anime"></a>
+                            <a class="link__prview" href="/spyfamily.html"  ><span class="hero__card-text">Семья шпиона 2</span></a>
+                        </div>
+                        <div class="hero__content-card">
+                            <a href="/spyfamily.html"  ><img class="hero__card-icon" src="/image/icon-anime.jpeg" alt="icon-anime"></a>
+                            <a class="link__prview" class="link__prview" href="/spyfamily.html"  ><span class="hero__card-text">Семья шпиона 2</span></a>
+                        </div>
+                        <div class="hero__content-card">
+                            <a href="/spyfamily.html"  ><img class="hero__card-icon" src="/image/icon-anime.jpeg" alt="icon-anime"></a>
+                            <a class="link__prview" href="/spyfamily.html"  ><span class="hero__card-text">Семья шпиона 2</span></a>
+                        </div>                       
+                    </div>
+                    <div class="hero__content-cards">
+                        <div class="hero__content-card">
+                            <a href="/spyfamily.html"  ><img class="hero__card-icon" src="/image/icon-anime.jpeg" alt="icon-anime"></a>
+                            <a class="link__prview"  href="/spyfamily.html"  ><span class="hero__card-text">Семья шпиона 2</span></a>
+                        </div>
+                        <div class="hero__content-card">
+                            <a href="/spyfamily.html"  ><img class="hero__card-icon" src="/image/icon-anime.jpeg" alt="icon-anime"></a>
+                            <a class="link__prview" href="/spyfamily.html"  ><span class="hero__card-text">Семья шпиона 2</span></a>
+                        </div>
+                        <div class="hero__content-card">
+                            <a href="/spyfamily.html"  ><img class="hero__card-icon" src="/image/icon-anime.jpeg" alt="icon-anime"></a>
+                            <a class="link__prview" href="/spyfamily.html"  ><span class="hero__card-text">Семья шпиона 2</span></a>
+                        </div>
+                        <div class="hero__content-card">
+                            <a href="/spyfamily.html"  ><img class="hero__card-icon" src="/image/icon-anime.jpeg" alt="icon-anime"></a>
+                            <a class="link__prview" href="/spyfamily.html"  ><span class="hero__card-text">Семья шпиона 2</span></a>
+                        </div>
+                        <div class="hero__content-card">
+                            <a href="/spyfamily.html"  ><img class="hero__card-icon" src="/image/icon-anime.jpeg" alt="icon-anime"></a>
+                            <a class="link__prview" class="link__prview" href="/spyfamily.html"  ><span class="hero__card-text">Семья шпиона 2</span></a>
+                        </div>
+                        <div class="hero__content-card">
+                            <a href="/spyfamily.html"  ><img class="hero__card-icon" src="/image/icon-anime.jpeg" alt="icon-anime"></a>
+                            <a class="link__prview" href="/spyfamily.html"  ><span class="hero__card-text">Семья шпиона 2</span></a>
+                        </div>                       
+                    </div>
+                </div>
+                <div class="hero__onoing-right-info">
+                    <div class="hero__onoing-status-tegs">Статус</div>
+                    <ul class="right__info-tegs1">
+                        <li data-field="status" data-value="anons" class="status__tegs">
+                            <span class="filter item-add" style="display: none;"></span>
+                            <input autocomplete="off" type="checkbox">
+                            Анонсировано
+                        </li>
+                        <li data-field="status" data-value="anons" class="status__tegs">
+                            <span class="filter item-add" style="display: none;"></span>
+                            <input autocomplete="off" type="checkbox">
+                            Сейчас выходит
+                        </li>
+                        <li data-field="status" data-value="anons" class="status__tegs">
+                            <span class="filter item-add" style="display: none;"></span>
+                            <input autocomplete="off" type="checkbox">
+                            Вышедшие
+                        </li>
+                        <li data-field="status" data-value="anons" class="status__tegs">
+                            <span class="filter item-add" style="display: none;"></span>
+                            <input autocomplete="off" type="checkbox">
+                            Недавно вышедшие
+                        </li>
+                    </ul>
+                    <div class="hero__onoing-status-tegs">Тип</div>
+                    <ul class="right__info-tegs1">
+                        <li data-field="status" data-value="anons" class="status__tegs">
+                            <span class="filter item-add" style="display: none;"></span>
+                            <input autocomplete="off" type="checkbox">
+                            TV Сериал
+                        </li>
+                        <li data-field="status" data-value="anons" class="status__tegs">
+                            <span class="filter item-add" style="display: none;"></span>
+                            <input autocomplete="off" type="checkbox">
+                            Фильм
+                        </li>
+                        <li data-field="status" data-value="anons" class="status__tegs">
+                            <span class="filter item-add" style="display: none;"></span>
+                            <input autocomplete="off" type="checkbox">
+                            OVA
+                        </li>
+                        <li data-field="status" data-value="anons" class="status__tegs">
+                            <span class="filter item-add" style="display: none;"></span>
+                            <input autocomplete="off" type="checkbox">
+                            ONA
+                        </li>
+                        <li data-field="status" data-value="anons" class="status__tegs">
+                            <span class="filter item-add" style="display: none;"></span>
+                            <input autocomplete="off" type="checkbox">
+                            Спешл
+                        </li>
+                    </ul>    
+                        <div class="hero__onoing-status-tegs">Сортировка</div>
+                        <ul class="right__info-tegs1">
+                            <li data-field="order" data-value="ranked" class="selected"> По рейтингу</li>
+                            <li data-field="order" data-value="ranked" class="selected"> По популярности</li>
+                            <li data-field="order" data-value="ranked" class="selected"> По алфавиту</li>
+                            <li data-field="order" data-value="ranked" class="selected"> По дате выхода</li>
+                        </ul>
+                        <div class="hero__onoing-status-tegs">Рейтинг</div>
+                        <ul class="right__info-tegs1">
+                            <li data-field="status" data-value="anons" class="status__tegs">
+                                <span class="filter item-add" style="display: none;"></span>
+                                <input autocomplete="off" type="checkbox">
+                                G
+                            </li>
+                            <li data-field="status" data-value="anons" class="status__tegs">
+                                <span class="filter item-add" style="display: none;"></span>
+                                <input autocomplete="off" type="checkbox">
+                                PG
+                            </li>
+                            <li data-field="status" data-value="anons" class="status__tegs">
+                                <span class="filter item-add" style="display: none;"></span>
+                                <input autocomplete="off" type="checkbox">
+                                PG-13
+                            </li>
+                            <li data-field="status" data-value="anons" class="status__tegs">
+                                <span class="filter item-add" style="display: none;"></span>
+                                <input autocomplete="off" type="checkbox">
+                                R17
+                            </li>
+                            <li data-field="status" data-value="anons" class="status__tegs">
+                                <span class="filter item-add" style="display: none;"></span>
+                                <input autocomplete="off" type="checkbox">
+                                R+
+                            </li>
+                        </ul>
+
+                </div>
+            </div>
+
+
+                </section>
+        <div class="hero__background">
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer__aboutus">
+            <span class="footer__aboutus-creator">Creator: o0_David_0o</span>
+            <div class="footer__navigation">
+                <span class="footer__navigation-text">Навигация:</span>
+                <a class="footer__link" href="/aboutus.html"><span class="footer__text-link">О сайте</span></a>
+                <a class="footer__link" href="/index.html"><span class="footer__text-link">Главная страница</span></a>
+                <a class="footer__link" href="/onoing.html"><span class="footer__text-link">Новинки</span></a>
+                <a class="footer__link" href="/season.html"><span class="footer__text-link">Аниме сезона</span></a>
+                <a class="footer__link" href="/aboutus.html"><span class="footer__text-link">Лучшие</span></a>
+            </div>
+            <span class="footer__aboutus-name">Shiroyasha.ru 2023</span>
+        </div>
+
+    </footer>
+    <script src="script/modal.js"></script>
+    <script src="script/script.js"></script>
+</body>
+</html>

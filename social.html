@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shiroyasha</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+</head>
+<body>
+    <div onclick="closeModal()" class="blure"></div>
+    <div class="modal" id="error">
+        <div class="modal__title">Сообщение Администрации</div>
+        <div class="modal__text">Возможно, у тебя возникла интересная идея? Или тебе тут что-то не нравится и чего-то не хватает?
+            Или, может быть, на сайте что-то неправильно работает, и обнаружилась ошибка?
+            А может быть, просто хочешь что-то сказать или спросить?
+        </div>
+        <div class="modal__text-end">Напиши нам в форме ниже, и мы, может быть, когда-нибудь тебе ответим.</div>
+        <input class="modal__mail" type="search" placeholder="mail">
+        <div class="modal__mail-answer">на почту придет ответ</div>
+        <textarea class="modal__coment" type="text" placeholder="Текст комментария" cols="25" rows="6"></textarea> 
+        <button onclick="closeModal()" class="modal__button-enter">Написать</button>
+    </div>
+    <header class="header">
+        <div class="header__left">
+            <div class="header__logo">SHIROYASHA</div>
+            <div class="select_mate" data-mate-select="active" >
+                <img class="header__home" src="/image/home-icon-white-11.jpg" alt="home">
+            <select name="" onchange="" onclick="return false;" id="">
+                <option value="">АНИМЕ</option>
+                <option value="1">Лучшее </option>
+                <option value="2" >Оноинги </option>
+                <a href="aboutus.html"><option value="3"> О сайте </option></a>
+            </select>
+            <p class="selecionado_opcion"  onclick="open_select(this)"></p>
+            <span onclick="open_select(this)" class="icon_select_mate">
+                <svg fill="white" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M7.41 7.84L12 12.42l4.59-4.58L18 9.25l-6 6-6-6z"/>
+                    <path d="M0-.75h24v24H0z" fill="none"/>
+                </svg>
+            </span>
+            <div class="cont_list_select_mate">
+                <ul class="cont_select_int">  </ul> 
+            </div>
+            </div>
+            <div class="header__search">
+                <img class="header__search-icon" src="/image/search.svg" alt="search">
+                <input class="header__placeholder" type="search" placeholder="Поиск...">
+            </div>
+        </div>
+        <form action="entry.html">
+        <button class="header__entry">Войти</button>
+    </form>
+    </header>
+    <section class="hero">
+
+        <div class="hero__background">
+            <button onclick="addModal()" class="hero__background__error">Сообщить об ошибке</button>
+        </div>
+        <section class="hero__content">
+
+
+        </section>
+        <div class="hero__background">
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer__aboutus">
+            <span class="footer__aboutus-creator">Creator: o0_David_0o</span>
+            <div class="footer__navigation">
+                <span class="footer__navigation-text">Навигация:</span>
+                <a class="footer__link" href="/aboutus.html"><span class="footer__text-link">О сайте</span></a>
+                <a class="footer__link" href="/index.html"><span class="footer__text-link">Главная страница</span></a>
+                <a class="footer__link" href="/onoing.html"><span class="footer__text-link">Новинки</span></a>
+                <a class="footer__link" href="/season.html"><span class="footer__text-link">Аниме сезона</span></a>
+                <a class="footer__link" href="/aboutus.html"><span class="footer__text-link">Лучшие</span></a>
+            </div>
+            <span class="footer__aboutus-name">Shiroyasha.ru 2023</span>
+        </div>
+
+    </footer>
+    <script src="script/modal.js"></script>
+    <script src="script/script.js"></script>
+</body>
+</html>
